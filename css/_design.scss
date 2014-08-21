@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "PrintDashed";
+  src: url("PrintDashed.otf");
+}
+
+@font-face {
+	font-family: "always";
+	src:url("always forever.ttf")
+}
+
+.social-media-button {
+	background-color: transparent;
+	text-align: left;
+	z-index: 10;
+	margin-top: -5%;
+	width: 100%;
+	margin-left: 15%;
+	line-height: 0;
+	font-size: 40px;
+ 	height: 100%;
+}
+
+/* Wrapper */
+.icon-button {
+	background-color: black;
+	border-radius: 5.7rem 0 0 5.7rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 3rem;
+	height: 5.7rem;
+	line-height: 3.5rem;
+	right: 40%;
+	top: 5%;
+	position: relative;
+	text-align: right;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 190%;
+	z-index: 100;
+}
+
+.social-media-button a{
+	margin: 5px;
+	margin-right: 0;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	margin: 0;
+	position: absolute;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 5.3rem;
+	height: 5.3rem;
+	border-radius: 5rem;
+	position: relative;
+	top: 0.2rem;
+	left: 0.27rem;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 2.6rem;
+	left: 0;
+	line-height: 2.6rem;
+	position: absolute;
+	padding-left: 1rem;
+	padding-top: 1.5rem;
+	top: 0;
+	font-size: 4rem;
+	text-align: center;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 2.6rem;
+	z-index: 10;
+}
+
+.twitter span {
+	background-color: #4099ff;
+}
+.facebook span {
+	background-color: #3B5998;
+}
+.google-plus span {
+	background-color: #db5a3c;
+}
+.tumblr span {
+	background-color: #34526f;
+}
+.instagram span {
+	background-color: #517fa4;
+}
+.youtube span {
+	background-color: #bb0000;
+}
+.pinterest span {
+	background-color: #cb2027;
+}
+
+.icon-button .fa-twitter {
+	color: #4099ff;
+}
+.icon-button .fa-facebook {
+	color: #3B5998;
+}
+.icon-button .fa-tumblr {
+	color: #34526f;
+}
+.icon-button .fa-google-plus {
+	color: #db5a3c;
+}
+.icon-button .fa-instagram {
+	color: #517fa4;
+}
+.icon-button .fa-youtube {
+	color: #bb0000;
+}
+.icon-button .fa-pinterest {
+	color: #cb2027;
+}
+
+.icon-button:hover .fa-twitter,
+.icon-button:hover .fa-facebook,
+.icon-button:hover .fa-google-plus,
+.icon-button:hover .fa-tumblr,
+.icon-button:hover .fa-instagram,
+.icon-button:hover .fa-youtube,
+.icon-button:hover .fa-pinterest {
+	color: white;
+	font-size: 4rem;
+}
+
+@media all and (max-width: 680px) {
+  .icon-button {
+    border-radius: 1.6rem;
+    font-size: 0.8rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  .icon-button:hover span {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 1.6rem;
+    margin: -0.8rem;
+  }
+
+  /* Icons */
+  .icon-button i {
+	  height: 1.6rem;
+	  line-height: 1.6rem;
+	  width: 1.6rem;
+  }
+  body {
+
+	  /*padding: 10px;*/
+  }
+  .pinterest {
+   display: none; 
+  }
+}
+
+.row-fluid, .container-fluid {
+  height: 100%;
+  width: 100%;
+}

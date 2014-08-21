@@ -1,0 +1,34 @@
+@import "design";
+
+.main-body {
+  height: 100%;
+  width: 100%;
+}
+
+.about-nav-1 {
+  margin-bottom: 2%;
+  background-color: black;
+  border: none;
+  width: 100%;
+  margin-right: 50%;
+  height: 5%;
+  z-index: 10;
+}
+
+.jemel-description {
+  float: left;
+  width: 60%;
+  height: 100%;
+  background-color: orange;
+}
+
+.description-1 {
+  font-size: 25px;
+  font-family: always;
+  text-align: center;
+}
+.img-container {
+  float: right;
+  width: 40%;
+  height: 100%;
+}
